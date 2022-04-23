@@ -40,6 +40,12 @@
     "mockery/mockery": "1.*",
     "phpunit/phpunit": "7.*",
     "yoast/phpunit-polyfills": "^1.0",
-    "wp-coding-standards/wpcs": "^2.3"
+    "wp-coding-standards/wpcs": "^2.3",
+    "johnpbloch/wordpress": "^5.9"
+  },
+  "config": {
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true
+    }
   }
 }
